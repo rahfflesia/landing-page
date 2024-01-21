@@ -97,6 +97,7 @@ h2 {
 
 .squares {
     display: flex;
+    justify-content: space-evenly;
     width: 60%;
     padding: 60px;
 }
@@ -114,6 +115,11 @@ h2 {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+}
+
+.obj p {
+    text-align: center;
+    width: 150px;
 }
 
 /* Footer styles */
