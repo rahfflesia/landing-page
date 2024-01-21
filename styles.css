@@ -153,9 +153,55 @@ h2 {
     justify-content: flex-end;
 }
 
+
+/* Ad section style */
+
+.anuncio {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 140px;
+}
+
+.main {
+    display: flex;
+    background-color: #3882F2;
+    color: #e5e7eb;
+    box-sizing: border-box;
+    padding: 50px 200px;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.right button {
+    background-color: #3882F2;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: solid;
+    height: 100%;
+    border-color: #e5e7eb;
+    padding: 5px 20px;
+}
+
+
+
+
+/* Footer styles */
+
 footer {
     display: flex;
     background-color: #1f2937;
+    box-sizing: border-box;
     padding: 40px;
     color: white;
     justify-content: center;
