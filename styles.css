@@ -5,6 +5,8 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Styles for the header*/
+
 header {
     width: 100%;
     display: flex;
@@ -75,4 +77,53 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Styles for the information section */
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: lightslategray;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.squares {
+    display: flex;
+    width: 60%;
+    padding: 60px;
+}
+
+.border {
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-color: #3882F2;
+    border-radius: 10px;
+}
+
+.obj {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Footer styles */
+
+footer {
+    width: 100%;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
